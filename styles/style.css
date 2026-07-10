@@ -192,8 +192,8 @@ ul li a{
     padding: 20px;
   }
   .footer-left p{
-   margin: 10px 0;
-  }
+   margin: 10px 30px;
+   }
   footer form input,
   footer form textarea{
   border: none;
@@ -205,7 +205,13 @@ ul li a{
    width: 100%;
    margin-bottom: 8px;
   }
-  .footer-icon-parent span{
+  .footer-icon-parent span :hover{
   color: #fd6e0a;
   font-size: 25px;
-  }
+  cursor: pointer;
+   }
+   .footer-right {
+    padding: 50px;
+    background-color: #f5e0d3;
+    border-radius: 15px;
+   }
